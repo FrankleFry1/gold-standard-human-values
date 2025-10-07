@@ -70,6 +70,22 @@ The framework is formatted as a **Formal Charter** with:
 - **Article VIII** - Implementation pathways
 - **Article IX** - Conclusion and affirmation
 
+## Repository Structure
+
+- **[CHARTER.md](./CHARTER.md)** - Core philosophical framework (Six Pillars)
+- **[AI-ALIGNMENT-ANNEX.md](./AI-ALIGNMENT-ANNEX.md)** - Technical implementation for AI systems (v0.1 DRAFT)
+- **[CONTRIBUTING.md](./CONTRIBUTING.md)** - How to improve this framework
+
+### Relationship Between Documents
+
+**Charter (Main Branch):** Establishes normative principles - *what* values should guide human-AI coexistence
+
+**Technical Annex (v2.0 Branch):** Operationalizes those principles - *how* to enforce them against advanced AI systems
+
+The separation is intentional:
+- Philosophy should remain stable and broadly applicable
+- Technical requirements must evolve rapidly with AI capabilities
+- Different stakeholders focus on different documents (ethicists vs. engineers)
 Full charter: [CHARTER.md](CHARTER.md)  
 Google Doc for comments: [https://docs.google.com/document/d/1Quo-LtVhkIRg6Nu3pGOG3U89bC-M_-RW/edit?usp=sharing](https://docs.google.com/document/d/1Quo-LtVhkIRg6Nu3pGOG3U89bC-M_-RW/edit?usp=sharing)
 
