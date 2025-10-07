@@ -71,7 +71,7 @@ The framework is formatted as a **Formal Charter** with:
 - **Article IX** - Conclusion and affirmation
 
 Full charter: [CHARTER.md](CHARTER.md)  
-Google Doc for comments: [https://docs.google.com/document/d/1Quo-LtVhkIRg6Nu3pGOG3U89bC-M_-RW/edit?usp=sharing](https://docs.google.com/document/d/1Quo-LtVhkIRg6Nu3pGOG3U89bC-M_-RW/edit?usp=sharing)
+Google Doc for comments: https://drive.google.com/file/d/1Quo-LtVhkIRg6Nu3pGOG3U89bC-M_-RW/view?usp=sharing
 
 ## Key Contributions
 ### 1. Article VII, Section B: Existential Tensions
