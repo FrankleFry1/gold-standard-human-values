@@ -55,7 +55,7 @@ The framework is formatted as a **Formal Charter** with:
 - **Article VIII** - Implementation pathways
 - **Article IX** - Conclusion and affirmation
 
-**[Read the full Charter](./CHARTER.md)**
+**(https://drive.google.com/file/d/1Quo-LtVhkIRg6Nu3pGOG3U89bC-M_-RW/view?usp=sharing)**
 
 ## Key Contributions
 
@@ -147,18 +147,18 @@ If you reference this work:
 ```
 Six-Pillar Framework for AI Alignment and Human Values (2025)
 Developed through human-AI collaboration (Claude, ChatGPT, Grok, Gemini)
-https://github.com/[your-username]/[repo-name]
+https://github.com/FrankleFry1
 ```
 
 ## License
 
-This framework is released under [MIT License / CC BY 4.0] to maximize accessibility and adaptation while requiring attribution.
+This framework is released under MIT License to maximize accessibility and adaptation while requiring attribution.
 
 ## Contact
 
 - **GitHub Issues:** For technical questions and suggestions
 - **Discussions:** For philosophical debates and applications
-- **Email:** [Your contact if you want to provide it]
+- **Email:** johnhaun04@gmail.com
 
 ## Acknowledgments
 
@@ -171,6 +171,6 @@ This framework builds on centuries of moral philosophy and recent AI safety rese
 
 ---
 
-**Status:** Version 1.0 - Released [Date] - Open for critique and revision
+**Status:** Version 1.0 - Released 10/07/2025 - Open for critique and revision
 
-**Last Updated:** [Date]
+**Last Updated:** 10/07/2025
