@@ -27,7 +27,7 @@ To apply this framework immediately:
   Provide balanced recommendations.
   ```
 - **For Personal/Team Use:** Download [CHARTER.md](CHARTER.md) and discuss a real dilemma (e.g., AI deployment ethics) pillar-by-pillar.
-- **For Developers:** See [examples/ai-prompt-template.md](examples/ai-prompt-template.md) for code snippets (coming soon—contribute yours!).
+- **For Developers:** See [examples/ai-prompt-template.md](examples/ai-prompt-template.md) for prompt templates and integration examples.
 
 ## The Six Pillars
 1. **Curiosity and Truth-Seeking** - Evidence-based reasoning, intellectual humility, and diverse paths to meaning
