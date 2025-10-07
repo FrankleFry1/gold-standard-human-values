@@ -135,25 +135,37 @@ Real-world ethics is negotiation, not perfection.
 
 **Declarations of Common Tensions:**
 
-1. **Curiosity vs. Empathy:** Truth-seeking can cause discomfort or psychological harm. Balance through informed consent, compassionate communication, and shared dialogue about difficult truths.
+**1. Curiosity vs. Empathy**
 
-2. **Sustainability vs. Present Well-Being:** Climate action and long-term justice require short-term sacrifices. Balance through fair transition policies, democratic burden-sharing, and emphasis on co-benefits.
+Truth-seeking can cause discomfort or psychological harm. Balance through informed consent, compassionate communication, and shared dialogue about difficult truths.
 
-3. **Dignity/Agency vs. Collective Flourishing:** Individual freedom can conflict with social good. Balance through the harm principle, deliberative democracy conducted through democratically legitimate institutions with meaningful appeal mechanisms and minority protections, and recognition that agency itself depends on social conditions.
+**2. Sustainability vs. Present Well-Being**
 
-4. **Adaptability vs. Core Principles:** Avoid relativism by distinguishing between revising applications (flexibility) and abandoning fundamentals (stability). Use empirical evidence and reasoned deliberation to guide evolution.
+Climate action and long-term justice require short-term sacrifices. Balance through fair transition policies, democratic burden-sharing, and emphasis on co-benefits.
 
-5. **Integrity vs. Pragmatism:** Sometimes the right choice costs dearly. Balance through transparency, shared accountability, and public deliberation about tradeoffs.
+**3. Dignity/Agency vs. Collective Flourishing**
+
+Individual freedom can conflict with social good. Balance through the harm principle, deliberative democracy conducted through democratically legitimate institutions with meaningful appeal mechanisms and minority protections, and recognition that agency itself depends on social conditions.
+
+**4. Adaptability vs. Core Principles**
+
+Avoid relativism by distinguishing between revising applications (flexibility) and abandoning fundamentals (stability). Use empirical evidence and reasoned deliberation to guide evolution.
+
+**5. Integrity vs. Pragmatism**
+
+Sometimes the right choice costs dearly. Balance through transparency, shared accountability, and public deliberation about tradeoffs.
 
 ### Section B: Existential Tensions and Defense of the Framework
 
-**Declaration of Principle:**
+**Declaration of Principle**
+
 The Charter must address its own defense when facing actors or forces that would exploit its principles to destroy them.
 
-**Acknowledgment of Existential Threat:**
+**Acknowledgment of Existential Threat**
+
 Societies committed to these Six Pillars may face authoritarian rivals, bad-faith actors, or existential risks (climate collapse, technological catastrophe, deliberate manipulation) that exploit openness, weaponize empathy, or abuse tolerance. The framework must provide guidance for when defending these principles requires difficult compromises with the principles themselves.
 
-**Declarations for Emergency Compromises:**
+**Declarations for Emergency Compromises**
 
 When defending the Charter against existential threats requires temporary deviation from its principles, the following safeguards must govern such actions:
 
@@ -172,18 +184,22 @@ When defending the Charter against existential threats requires temporary deviat
 7. **Moral Residue Recognition:** Acknowledge that even justified compromises leave moral costs. Communities must collectively process these costs through truth and reconciliation efforts, not denial or triumphalism.
 
 **Examples of Bounded Exceptions:**
-- Limiting dangerous misinformation during public health emergencies (Curiosity vs. Empathy/Sustainability)—but with clear criteria, independent fact-checking, transparent processes, and sunset clauses
-- Restricting certain individual freedoms to address climate catastrophe (Dignity/Agency vs. Sustainability)—but through democratic mandate, with equitable burden-sharing and compensation for those most affected
-- Strategic information control when facing adversaries who weaponize openness (Integrity vs. Survival)—but only regarding specific operational details, never suppressing legitimate dissent or accountability
 
-**What Cannot Be Compromised:**
+- **Limiting dangerous misinformation during public health emergencies** (Curiosity vs. Empathy/Sustainability)—but with clear criteria, independent fact-checking, transparent processes, and sunset clauses
+- **Restricting certain individual freedoms to address climate catastrophe** (Dignity/Agency vs. Sustainability)—but through democratic mandate, with equitable burden-sharing and compensation for those most affected
+- **Strategic information control when facing adversaries who weaponize openness** (Integrity vs. Survival)—but only regarding specific operational details, never suppressing legitimate dissent or accountability
+
+**What Cannot Be Compromised**
+
 Even under existential threat, certain principles remain inviolable:
+
 - The prohibition against torture, genocide, slavery, and crimes against humanity
 - The fundamental equality of human dignity
 - The right to challenge authority through legitimate processes
 - The commitment to eventual transparency and accountability
 
-**Declaration of Solemn Warning:**
+**Declaration of Solemn Warning**
+
 History shows that "temporary" emergency measures often become permanent, and existential rhetoric frequently serves tyranny. Those who invoke this section bear an extraordinary burden of justification. Societies must remain vigilant against those who would use existential language to dismantle the very framework they claim to protect.
 
 ---
