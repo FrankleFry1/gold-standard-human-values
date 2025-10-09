@@ -4,7 +4,7 @@
 
 WHEREAS human values are inherently diverse and evolving, shaped by culture, history, biology, and individual experience;
 
-WHEREAS this Charter does not claim objective truth or universal authority but serves as an aspirational synthesis: a flexible set of principles designed to promote flourishing while adapting to technological, cultural, and ecological change;
+WHEREAS this Charter does not claim to define the ultimate source of this truth but serves as an aspirational synthesis: a flexible set of principles designed to promote flourishing while adapting to technological, cultural, and ecological change.;
 
 WHEREAS this framework emerges from particular philosophical traditions and represents one attempt at synthesis, inviting culturally-grounded alternatives for dialogue and mutual enrichment;
 
