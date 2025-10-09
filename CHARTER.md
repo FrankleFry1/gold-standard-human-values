@@ -4,7 +4,13 @@
 
 WHEREAS human values are inherently diverse and evolving, shaped by culture, history, biology, and individual experience;
 
-WHEREAS this Charter does not claim to define the ultimate source of this truth but serves as an aspirational synthesis: a flexible set of principles designed to promote flourishing while adapting to technological, cultural, and ecological change.;
+WHEREAS this Charter acknowledges that moral truth and human dignity are not merely human constructs but reflect deeper realities about the nature of persons and flourishing;
+
+WHEREAS diverse philosophical and religious traditions—whether grounded in natural law, divine revelation, or reasoned reflection—converge on core principles of human worth and mutual obligation;
+
+WHEREAS this framework seeks to express these enduring truths in principles suitable for technological governance, while remaining open to refinement as our understanding deepens;
+
+WHEREAS it does not claim to settle all metaphysical questions, but recognizes that effective alignment requires grounding values in something more stable than shifting consensus;
 
 WHEREAS this framework emerges from particular philosophical traditions and represents one attempt at synthesis, inviting culturally-grounded alternatives for dialogue and mutual enrichment;
 
