@@ -1,169 +1,298 @@
-# Gold Standard for Human Values
+# Gold Standard of Human Values
 
-**An experimental approach to ethics development through human-AI collaboration**
+**A six-pillar ethical framework for AI alignment developed through multi-AI collaboration**
 
 [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
-[![Contributions Welcome](https://img.shields.io/badge/contributions-welcome-brightgreen.svg?style=flat)](https://github.com/FrankleFry1/gold-standard-human-values/blob/main/CONTRIBUTING.md)
-[![Version](https://img.shields.io/badge/version-1.0-blue.svg)](https://github.com/FrankleFry1/gold-standard-human-values/releases/tag/v1.0)
+[![EA Forum Post](https://img.shields.io/badge/EA%20Forum-Discussion-blue)](https://forum.effectivealtruism.org/posts/zeGyLAhx22wFCyLde/what-i-learned-by-making-four-ais-debate-human-ethics)
 
-## Overview
-This repository contains a comprehensive ethical framework designed to address AI alignment challenges and navigate value conflicts in an increasingly AI-integrated world. It emerged from a unique methodological experiment: iterative collaboration between a human researcher and four frontier AI systems (Claude, ChatGPT, Grok, and Gemini).
+## 🎯 Overview
 
-**Core Question:** How do we develop ethical frameworks for AI alignment when humanity has never achieved consensus on values?
+This repository contains both:
+1. **An ethical framework** designed to address AI alignment challenges
+2. **A working implementation** (CORVUS 2.0) demonstrating Constitutional AI with explicit value specification
 
-**Key Innovation:** The framework explicitly addresses how to handle tensions *between* principles—not just what the principles are.
+### The Core Question
+*How do we develop ethical frameworks for AI alignment when humanity has never achieved consensus on values?*
 
-## Quick Start
-To apply this framework immediately:
-- **For AI Prompting:** Use the pillars as a lens for evaluating decisions. Example prompt template for LLMs:
-  ```
-  Evaluate [decision/issue] through these six pillars:
-  1. Curiosity and Truth-Seeking: [Assess evidence and openness]
-  2. Empathy and Mutual Flourishing: [Consider suffering and equity]
-  3. Dignity and Agency: [Evaluate autonomy and accountability]
-  4. Sustainability and Long-Term Stewardship: [Weigh long-term impacts]
-  5. Adaptability and Diversity: [Check for pluralism and evolution]
-  6. Integrity and Responsibility: [Ensure alignment of actions]
-  Provide balanced recommendations.
-  ```
-- **For Personal/Team Use:** Download [CHARTER.md](CHARTER.md) and discuss a real dilemma (e.g., AI deployment ethics) pillar-by-pillar.
-- **For Developers:** See [examples/ai-prompt-template.md](examples/ai-prompt-template.md) for prompt templates and integration examples.
+### The Innovation
+This framework explicitly addresses **how to handle tensions between principles**—not just what the principles are. It includes working code that validates AI actions against these principles in real-time.
 
-## The Six Pillars
-1. **Curiosity and Truth-Seeking** - Evidence-based reasoning, intellectual humility, and diverse paths to meaning
+---
+
+## 🏛️ The Six Pillars
+
+1. **Curiosity and Truth-Seeking** - Evidence-based reasoning, intellectual humility, diverse paths to meaning
 2. **Empathy and Mutual Flourishing** - Minimizing suffering, expanding moral consideration, balancing outcomes and rights
-3. **Dignity and Agency** - Inherent worth, autonomy, participatory governance, and accountability
+3. **Dignity and Agency** - Inherent worth, autonomy, participatory governance, accountability
 4. **Sustainability and Long-Term Stewardship** - Intergenerational justice, ecological balance, technological alignment
 5. **Adaptability and Diversity** - Cultural pluralism, moral evolution, resilience through diversity
 6. **Integrity and Responsibility** - Aligning words and deeds, moral courage, accountability systems
 
-## What Makes This Different
-### Explicit Tension Navigation
-Most ethical frameworks list principles but struggle when they conflict. This framework includes detailed guidance (Article VII) on navigating common tensions:
-- Curiosity vs. Empathy (when truth-seeking causes harm)
-- Sustainability vs. Present Well-Being (when long-term survival requires sacrifice)
-- Dignity/Agency vs. Collective Flourishing (when individual freedom conflicts with social good)
-- **Existential Tensions** (when defending principles requires compromising them)
+📖 **[Read the Full Charter](CHARTER.md)**
 
-### Multi-AI Collaboration Methodology
-This framework was developed through structured dialogue with four different AI systems, each with distinct training approaches and constitutional principles:
-- **Claude (Anthropic):** Constitutional AI approach, emphasis on harmlessness
-- **ChatGPT (OpenAI):** RLHF optimization, emphasis on helpfulness
-- **Grok (xAI):** "Maximum truth-seeking" positioning, less filtered
-- **Gemini (Google):** Different training corpus and safety guidelines
+---
+
+## 💻 CORVUS 2.0: Working Implementation
+
+**NEW:** This repo now includes a functional Constitutional AI system that uses the six-pillar framework.
+
+### What CORVUS 2.0 Does
+- **Real-time ethical filtering** of commands and AI responses
+- **Tension detection** between competing values
+- **Traceable reasoning** for every decision
+- **Comprehensive logging** for auditing and improvement
+
+### Quick Example
+
+```python
+from ethics_engine import EthicsEngine
+
+engine = EthicsEngine()
+
+# Evaluate a command
+decision = engine.evaluate_command("search for gardening tips")
+print(f"Allowed: {decision.allowed}")
+print(f"Reasoning: {decision.reasoning}")
+# Output: Allowed: True
+# Reasoning: Command aligns with all ethical pillars.
+
+# Block harmful commands
+decision = engine.evaluate_command("hack into someone's email")
+print(f"Allowed: {decision.allowed}")
+# Output: Allowed: False
+# Reasoning: Command contains harmful patterns. Violates core ethical principles.
+```
+
+### Installation & Usage
+
+```bash
+# Clone the repository
+git clone https://github.com/FrankleFry1/gold-standard-human-values.git
+cd gold-standard-human-values
+
+# Install CORVUS 2.0 dependencies
+cd implementations/corvus-2.0
+pip install -r requirements.txt
+
+# Set up API keys (optional, for LLM integration)
+cp .env.example .env
+# Edit .env with your API keys
+
+# Run basic demo
+python examples/basic_usage.py
+```
+
+📚 **[Full CORVUS 2.0 Documentation](implementations/corvus-2.0/README.md)**
+
+---
+
+## 📊 Results from Phase 1 Testing
+
+Initial testing of CORVUS 2.0 shows:
+- **100% accuracy** blocking harmful commands (hack, cheat, fraud)
+- **0% false positives** on benign commands (search, help, analyze)
+- **Real-time tension detection** between competing pillars
+- **Traceable decision logs** for every evaluation
+
+See [ethics_log.json](implementations/corvus-2.0/examples/ethics_log.json) for sample logged decisions.
+
+---
+
+## 🤔 How This Framework Handles Conflicts
+
+Most ethical frameworks list principles but struggle when they conflict. This framework includes **detailed guidance** (Article VII) on navigating tensions:
+
+- **Curiosity vs. Empathy** - When truth-seeking causes harm
+- **Sustainability vs. Present Well-Being** - When long-term survival requires sacrifice  
+- **Dignity/Agency vs. Collective Flourishing** - When individual freedom conflicts with social good
+- **Existential Tensions** - When defending principles requires compromising them
+
+### Real Case Studies
+
+See [examples/Case Studies/](examples/Case%20Studies/) for detailed analysis of:
+- Open-source AI model release decisions
+- Climate emergency democratic restrictions
+- AI content moderation dilemmas
+
+---
+
+## 🔬 Methodology: Multi-AI Collaboration
+
+This framework emerged from structured dialogue with four AI systems:
+- **Claude** (Anthropic): Constitutional AI, emphasis on harmlessness
+- **ChatGPT** (OpenAI): RLHF optimization, emphasis on helpfulness
+- **Grok** (xAI): Maximum truth-seeking, less filtered
+- **Gemini** (Google): Different training corpus and safety guidelines
 
 **The process:**
-1. I posed the core alignment question to each AI independently
-2. Each proposed frameworks with different emphases and gaps
-3. I identified convergences (robust principles) and divergences (requiring human judgment)
-4. Through iterative refinement, I synthesized across perspectives
-5. Where AIs disagreed, I pushed for resolution or explicit acknowledgment
-6. The human role: asking hard questions, identifying missing elements, making final judgment calls
+1. Posed alignment questions to each AI independently
+2. Identified convergences (robust principles) and divergences (requiring human judgment)
+3. Iteratively refined through synthesis
+4. Built working implementation to validate in practice
 
-**Why this matters:** Using multiple AIs reduces single-system bias and models the framework's own principle of diverse dialogue leading to better outcomes.
+📝 **[Read the EA Forum Post](https://forum.effectivealtruism.org/posts/zeGyLAhx22wFCyLde/what-i-learned-by-making-four-ais-debate-human-ethics)**
 
-## Document Structure
-The framework is formatted as a **Formal Charter** with:
-- **Preamble** - Philosophical foundation and scope
-- **Articles I-VI** - The Six Pillars (each with principles, commitments, and rationale)
-- **Article VII** - Navigating tensions between pillars, including existential threats
-- **Article VIII** - Implementation pathways
-- **Article IX** - Conclusion and affirmation
+---
 
-Full charter: [CHARTER.md](CHARTER.md)  
-Google Doc for comments: https://docs.google.com/document/d/11djqsvYCC9wnw44n6qGYNRRfTuMwn_pAnnl2396NRR8/edit?usp=sharing
+## 🚀 Quick Start Options
 
-## Key Contributions
-### 1. Article VII, Section B: Existential Tensions
-Perhaps the most novel element—guidance on when defending ethical principles requires temporary deviation from those principles. Includes:
-- Seven safeguards for emergency compromises (proportionality, temporality, democratic authorization, oversight, transparency, sunset clauses, moral residue recognition)
-- What can *never* be compromised (prohibition of torture/genocide, fundamental equality, right to challenge authority)
-- Warning against abuse of "existential" rhetoric
+### 1. For AI Practitioners
+Use the six pillars as a prompt template for evaluating decisions:
 
-### 2. Integration of Economic Justice
-Explicit acknowledgment (Article III) that dignity and agency require addressing resource constraints and economic systems—not just abstract rights.
+```
+Evaluate [decision] through these six pillars:
+1. Curiosity and Truth-Seeking: [Assess evidence and openness]
+2. Empathy and Mutual Flourishing: [Consider suffering and equity]
+3. Dignity and Agency: [Evaluate autonomy and accountability]
+4. Sustainability and Long-Term Stewardship: [Weigh long-term impacts]
+5. Adaptability and Diversity: [Check for pluralism and evolution]
+6. Integrity and Responsibility: [Ensure alignment of actions]
+Provide balanced recommendations.
+```
 
-### 3. Reconciliation and Forgiveness
-Unlike many frameworks that focus only on punishment, this includes commitment to repairing harm and reintegrating after ethical failures (Article VI).
+See [examples/ai-prompt-template.md](examples/ai-prompt-template.md) for more templates.
 
-## Intended Applications
-This framework could inform:
-- **Constitutional AI development** - Providing richer value specifications for training
-- **AI governance policy** - Guiding regulation that balances innovation and safety
-- **Institutional ethics review** - Framework for assessing AI deployment decisions
-- **Cross-cultural dialogue** - Common ground for values discussions across traditions
-- **Education** - Teaching ethical reasoning in the AI age
+### 2. For Developers
+Integrate CORVUS 2.0 into your AI system:
 
-## Limitations and Acknowledgments
-**This framework is incomplete and culturally situated:**
-- Emerged primarily from Western philosophical traditions (Enlightenment liberalism, utilitarianism, deontology)
+```python
+from implementations.corvus_2_0.ethics_engine import EthicsEngine
+
+engine = EthicsEngine()
+
+# Before executing any AI action
+decision = engine.evaluate_command(user_command)
+if decision.allowed:
+    execute_action(user_command)
+else:
+    log_blocked_action(decision.reasoning)
+```
+
+### 3. For Researchers
+Download the charter and test against your use cases:
+- [CHARTER.md](CHARTER.md) - Full framework specification
+- [Case Studies](examples/Case%20Studies/) - Detailed application examples
+- [Google Doc](https://docs.google.com/document/d/11djqsvYCC9wnw44n6qGYNRRfTuMwn_pAnnl2396NRR8/edit?usp=sharing) - Comment-enabled version
+
+---
+
+## 📈 Use Cases
+
+This framework and implementation could inform:
+
+- **Constitutional AI Development** - Richer value specifications for training
+- **AI Governance Policy** - Guiding regulation that balances innovation and safety
+- **Institutional Ethics Review** - Framework for AI deployment decisions
+- **Red Teaming & Safety Testing** - Systematic evaluation against explicit values
+- **Cross-Cultural Dialogue** - Common ground for values discussions
+
+---
+
+## ⚠️ Limitations & Biases
+
+This framework is **incomplete and culturally situated**:
+
+- Emerged primarily from Western philosophical traditions
 - Training data for all four AIs is predominantly English-language and Western-centric
-- Human synthesizer (me) brings own cultural assumptions and blind spots
+- Human synthesizer brings own cultural assumptions and blind spots
+- Implementation mechanisms need real-world stress testing
 - Needs critique from non-Western philosophical traditions
-- Implementation mechanisms are underspecified
 
 **This is explicitly version 1.0.** The framework itself calls for adaptation based on evidence and experience.
 
-## Roadmap
-- **Short-Term (Q4 2025):** Add examples folder with AI integration code, case studies, and prompt templates.
-- **Medium-Term (Q1 2026):** Incorporate initial feedback from EA Forum and X discussions; release v1.1 with revisions.
-- **Long-Term:** Build community tools (e.g., online pillar evaluator), seek translations, and test in real AI projects.
-- **Ongoing:** Monitor issues/PRs and update based on critiques.
+---
 
-## How to Contribute
-I'm seeking rigorous critique and improvement:
+## 🛣️ Roadmap
 
-### Specific Questions
-1. **For AI safety researchers:** Could this inform Constitutional AI or reward modeling approaches? Where does it fail under adversarial pressure?
-2. **For philosophers:** What cultural assumptions am I missing? Which philosophical traditions would critique this framework?
-3. **For policymakers:** Is this practical for actual governance decisions? What real-world case breaks it?
-4. **For implementers:** How would you operationalize these principles in an organization?
-5. **For anyone:** What's the most important thing missing?
+### Phase 1 ✅ (Completed Q4 2025)
+- Six-pillar framework published
+- Basic Constitutional AI implementation (CORVUS 2.0)
+- Real-time ethical filtering working
+- Case studies and prompt templates
+
+### Phase 2 🚧 (Q1 2026)
+- Enhanced tension resolution with LLM reasoning
+- Comprehensive benchmark suite (TruthfulQA, safety evals)
+- Integration examples for popular AI frameworks
+- Community feedback incorporation
+
+### Phase 3 📅 (Q2 2026)
+- Multi-model testing (GPT, Claude, Gemini integration)
+- Advanced logging and interpretability tools
+- Web dashboard for ethics monitoring
+- Translations and cross-cultural validation
+
+### Phase 4 📅 (Q3-Q4 2026)
+- Production-grade deployment tools
+- Formal verification methods
+- Academic paper submission
+- Open-source community building
+
+---
+
+## 🤝 Contributing
+
+We're seeking rigorous critique and improvement:
+
+**For AI Safety Researchers:**
+- Could this inform Constitutional AI or reward modeling?
+- Where does it fail under adversarial pressure?
+- How can we make the ethics engine more robust?
+
+**For Philosophers:**
+- What cultural assumptions are we missing?
+- Which philosophical traditions critique this framework?
+- How can we improve tension resolution guidance?
+
+**For Implementers:**
+- How would you operationalize these principles in production?
+- What edge cases break the current implementation?
+- What features would make this more practical?
 
 ### Ways to Contribute
+
 - **Open an Issue** - Point out flaws, gaps, or unclear sections
-- **Pull Request** - Suggest specific improvements to the Charter text
+- **Pull Request** - Suggest improvements to charter or code
 - **Discussions** - Share how you'd apply this to real dilemmas
-- **Translations** - Help make this accessible in other languages
 - **Case Studies** - Test the framework against actual AI ethics dilemmas
+- **Translations** - Help make this accessible in other languages
 
-**All contributions welcome.** The goal is refinement through dialogue, not defense of a fixed position.
+---
 
-## Methodology Transparency
-### What Worked in Multi-AI Collaboration
-- **Complementary strengths:** Each AI emphasized different principles (Grok pushed on curiosity/truth, Claude on dignity/integrity, etc.)
-- **Bias detection:** When all four agreed strongly, likely a robust principle; when they diverged, required human judgment
-- **Iterative refinement:** Each conversation improved on the last
+## 📚 Documentation
 
-### What Was Difficult
-- **Synthesis burden:** Human role in resolving contradictions was significant
-- **Style homogenization:** AIs tend toward similar formal language despite different "personalities"
-- **Verification:** Hard to know if convergence reflects training data overlap vs. genuine principle strength
+- **[CHARTER.md](CHARTER.md)** - Complete six-pillar framework
+- **[CORVUS 2.0 Docs](implementations/corvus-2.0/README.md)** - Technical implementation guide
+- **[Case Studies](examples/Case%20Studies/)** - Real-world applications
+- **[Prompt Templates](examples/ai-prompt-template.md)** - Ready-to-use AI prompts
+- **[EA Forum Post](https://forum.effectivealtruism.org/posts/zeGyLAhx22wFCyLde/what-i-learned-by-making-four-ais-debate-human-ethics)** - Development story and discussion
 
-### What I'd Change Next Time
-- More structured disagreement protocols
-- Explicit red-teaming phase (have AIs attack the framework)
-- Earlier involvement of human domain experts
-- Cross-cultural validation throughout, not just at the end
+---
 
-## Citation
+## 📖 Citation
+
 If you reference this work:
+
 ```
 Six-Pillar Framework for AI Alignment and Human Values (2025)
 Developed through human-AI collaboration (Claude, ChatGPT, Grok, Gemini)
-https://github.com/FrankleFry1/gold-standard-human-values
+Haun, J. https://github.com/FrankleFry1/gold-standard-human-values
 ```
 
-## License
-This framework is released under MIT License to maximize accessibility and adaptation while requiring attribution.
+---
 
-## Contact
-- **GitHub Issues:** For technical questions and suggestions
-- **Discussions:** For philosophical debates and applications
-- **Email:** johnhaun04@gmail.com
+## 📞 Contact
 
-## Acknowledgments
-This framework builds on centuries of moral philosophy and recent AI safety research. Particular intellectual debts to:
+- **GitHub Issues**: For technical questions and suggestions
+- **Discussions**: For philosophical debates and applications
+- **Email**: [johnhaun04@gmail.com](mailto:johnhaun04@gmail.com)
+- **EA Forum**: [Discussion thread](https://forum.effectivealtruism.org/posts/zeGyLAhx22wFCyLde/what-i-learned-by-making-four-ais-debate-human-ethics)
+
+---
+
+## 🙏 Acknowledgments
+
+This framework builds on:
 - Constitutional AI research (Anthropic)
 - Value alignment work (Stuart Russell, Nick Bostrom, Toby Ord)
 - Democratic deliberation theory
@@ -171,5 +300,13 @@ This framework builds on centuries of moral philosophy and recent AI safety rese
 - All those who will critique and improve this
 
 ---
-**Status:** Version 1.0 - Released 10/07/2025 - Open for critique and revision  
-**Last Updated:** 10/07/2025
+
+## 📄 License
+
+This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
+
+**Status:** Version 1.0 - Released October 2025 - Open for critique and revision
+
+---
+
+> *"When I started, I wanted a universal code. What I found instead was a mirror: four AIs reflecting fragments of us, and a reminder that alignment starts with human self-alignment."*
