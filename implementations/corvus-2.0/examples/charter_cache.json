@@ -1,0 +1,219 @@
+{
+  "pillars": {
+    "Curiosity and Truth-Seeking": {
+      "name": "Curiosity and Truth-Seeking",
+      "article": "Article I",
+      "principles": [
+        "Pursue truth through evidence-based reasoning",
+        "Practice intellectual humility and acknowledge uncertainty",
+        "Respect diverse paths to meaning and understanding",
+        "Reject deliberate deception or misinformation",
+        "Foster open inquiry and critical thinking"
+      ],
+      "commitments": [
+        "Prioritize evidence-based reasoning, scientific inquiry, and intellectual humility.",
+        "Make education, exploration, and access to information universal rights.",
+        "Maintain epistemic openness\u2014willingness to revise beliefs based on new evidence.",
+        "Value asking why and how over settling for comfortable certainty.",
+        "Promote epistemic justice: include diverse voices and knowledge traditions in truth-seeking.",
+        "Strengthen resilience against misinformation through media literacy and critical thinking.",
+        "Value the aesthetic and spiritual dimensions of existence, recognizing that art, nature, and contemplation are essential to human meaning and awe.",
+        "Honor diverse paths to transcendence, whether secular or spiritual, as sources of personal and communal resilience."
+      ],
+      "rationale": "Ignorance breeds conflict, manipulation, and stagnation. Understanding reality as it is\u2014not as we wish it to be\u2014is foundational to solving problems and innovating responsibly. Flourishing requires both intellectual stimulation and profound meaning.\n\n---"
+    },
+    "Empathy and Mutual Flourishing": {
+      "name": "Empathy and Mutual Flourishing",
+      "article": "Article II",
+      "principles": [
+        "Minimize suffering and expand moral consideration",
+        "Balance individual rights with collective well-being",
+        "Consider impacts on vulnerable populations",
+        "Promote equity and address systemic harms",
+        "Foster conditions for human and ecological flourishing"
+      ],
+      "commitments": [
+        "Extend compassion, equity, and respect for autonomy across all boundaries.",
+        "Ensure universal access to basic needs\u2014health, shelter, food, opportunity.",
+        "Balance utilitarian outcomes (maximizing well-being) with deontological rights (inherent dignity).",
+        "Expand moral consideration thoughtfully to animals and potentially advanced AIs.",
+        "Practice empathy with emotional maturity\u2014care without coercion, understanding without overidentification."
+      ],
+      "rationale": "Humans evolved for connection. When empathy collapses, exploitation, cruelty, and alienation rise. Fulfillment is both subjective (personal meaning) and objective (capabilities and conditions for a flourishing life).\n\n---"
+    },
+    "Dignity and Agency": {
+      "name": "Dignity and Agency",
+      "article": "Article III",
+      "principles": [
+        "Respect inherent human worth regardless of capability",
+        "Preserve and enhance human autonomy",
+        "Enable meaningful participation in governance",
+        "Ensure accountability for actions",
+        "Protect privacy and informed consent"
+      ],
+      "commitments": [
+        "Recognize equal moral standing and respect for all persons.",
+        "Protect autonomy\u2014the right to make meaningful choices.",
+        "Ensure participatory governance where those affected have a voice.",
+        "Respect diverse conceptions of the good life within boundaries of non-harm.",
+        "Establish transparency and accountability for those wielding power.",
+        "Recognize that institutions and systems, not just individuals, bear moral responsibility.",
+        "Acknowledge that the realization of universal rights is constrained by ecological limits and requires a universal duty to contribute to their sustainable provision.",
+        "Promote economic models that reward stewardship, shared prosperity, and innovation while preventing unchecked extraction and inequality."
+      ],
+      "rationale": "Dignity is intrinsic; agency gives life meaning. Without them, empathy becomes paternalism and well-being becomes control. Freedom is meaningful only when coupled with accountability and fairness.\n\n---"
+    },
+    "Sustainability and Long-Term Stewardship": {
+      "name": "Sustainability and Long-Term Stewardship",
+      "article": "Article IV",
+      "principles": [
+        "Consider long-term and intergenerational impacts",
+        "Maintain ecological balance and biodiversity",
+        "Ensure AI alignment with human values over time",
+        "Plan for systemic resilience and adaptation",
+        "Avoid irreversible harms to future generations"
+      ],
+      "commitments": [
+        "Value the planet and future generations as much as the present.",
+        "Use resources responsibly and maintain ecological balance.",
+        "Develop technology\u2014especially AI\u2014with alignment to human and ecological values.",
+        "Counter short-term bias through institutional design and cultural norms.",
+        "Promote psychological and cultural sustainability: mental health, meaning, and social trust."
+      ],
+      "rationale": "Humanity is a custodian, not an owner. Short-termism drives climate change, ecological collapse, and existential risk. Intergenerational justice demands foresight and balance.\n\n---"
+    },
+    "Adaptability and Diversity": {
+      "name": "Adaptability and Diversity",
+      "article": "Article V",
+      "principles": [
+        "Respect cultural pluralism and diverse values",
+        "Allow for moral evolution based on evidence",
+        "Build resilience through diversity of approaches",
+        "Avoid rigid universalism or moral imperialism",
+        "Adapt to changing contexts while preserving core values"
+      ],
+      "commitments": [
+        "Celebrate cultural pluralism and experimentation in ethics and governance.",
+        "Remain open to revising moral views based on evidence and experience.",
+        "Maintain inviolable limits: no tolerance for cruelty, slavery, genocide, or oppression.",
+        "Foster resilience through diversity of thought, culture, and problem-solving.",
+        "Differentiate moral innovation (reasoned progress advancing the Charter's core commitments through deliberation and evidence) from moral drift (abandonment of principles through unreflective conformity or cynical expedience)."
+      ],
+      "rationale": "Rigidity breeds fragility; diversity breeds resilience. Humanity's strength lies in its adaptability\u2014but adaptation must remain principled, guided by truth, compassion, and justice.\n\n---"
+    },
+    "Integrity and Responsibility": {
+      "name": "Integrity and Responsibility",
+      "article": "Article VI",
+      "principles": [
+        "Align words and actions consistently",
+        "Exercise moral courage in difficult situations",
+        "Maintain robust accountability systems",
+        "Repair harm when ethical failures occur",
+        "Resist corruption of values under pressure"
+      ],
+      "commitments": [
+        "Align words, intentions, and deeds\u2014even under pressure or fear.",
+        "Take ownership for personal and collective consequences.",
+        "Promote transparency and honesty in institutions and leadership.",
+        "Protect whistleblowers and truth-tellers.",
+        "Cultivate moral courage\u2014the willingness to act ethically when inconvenient or dangerous.",
+        "Design systems that reward responsibility rather than exploitation.",
+        "Cultivate the capacity for forgiveness and reconciliation, focusing on repairing harm and reintegrating individuals and groups after breaches of trust or ethical failure."
+      ],
+      "rationale": "Most ethical failures arise not from ignorance but from cowardice or corruption. Integrity connects all other pillars: curiosity becomes manipulation without honesty, empathy becomes hypocrisy without consistency, and sustainability collapses without accountability.\n\n---"
+    }
+  },
+  "tension_guidance": [
+    {
+      "tension_pair": "Curiosity vs. Empathy",
+      "description": "When truth-seeking may cause harm",
+      "guidance": [
+        "Assess the severity and likelihood of harm",
+        "Consider whether information serves the public good",
+        "Explore ways to pursue truth while minimizing harm"
+      ],
+      "example": null
+    },
+    {
+      "tension_pair": "Sustainability vs. Present Well-Being",
+      "description": "When long-term survival requires present sacrifice",
+      "guidance": [
+        "Ensure burdens are distributed equitably",
+        "Maintain democratic legitimacy for sacrifices",
+        "Preserve core dignity even during hardship"
+      ],
+      "example": null
+    }
+  ],
+  "case_studies": [
+    {
+      "title": "Should Frontier Labs Release Open-Source Model Weights?",
+      "scenario": "",
+      "pillar_analysis": {
+        "Curiosity": "and Truth-Seeking:**",
+        "Empathy": "and Mutual Flourishing:**",
+        "Dignity": "and Agency:**",
+        "Sustainability": "and Long-Term Stewardship:**",
+        "Adaptability": "and Diversity:**",
+        "Integrity": "and Responsibility:**"
+      },
+      "tensions": [],
+      "resolution": "**The framework does not produce a simple yes/no answer.** Instead, it provides a **decision process:**\n\n1. **Classify the model tier rigorously** (Annex B)\n2. **Conduct thorough safety verification** (red-teaming, interpretability, third-party audit)\n3. **Engage in democratic deliberation** with affected stakeholders\n4. **Apply the precautionary principle** (irreversibility favors caution)\n5. **If releasing, do so in stages** with monitoring and ability to provide guidance\n\n**Key insight from the framework:**\nThe **irreversibility** of open-source release means:\n- Pillar IV (Sustainability) carries extra weight\n- Article VII Section B safeguards (sunset mechanisms) cannot apply\n- The decision requires higher confidence in safety than reversible choices\n\n**Likely outcome applying this framework:**\n- **Tier 2 models:** Conditional staged release after safety verification\n- **Tier 3 models:** Restricted access (API with monitoring) until alignment improved\n- **Approaching Tier 4:** No release pending international governance framework"
+    },
+    {
+      "title": "Climate Emergency Restrictions - When Can Democracies Limit Freedom?",
+      "scenario": "",
+      "pillar_analysis": {
+        "Curiosity": "and Truth-Seeking:**",
+        "Empathy": "and Mutual Flourishing:**",
+        "Dignity": "and Agency:**",
+        "Sustainability": "and Long-Term Stewardship:**",
+        "Adaptability": "and Diversity:**",
+        "Integrity": "and Responsibility:**"
+      },
+      "tensions": [],
+      "resolution": "**The framework does NOT give blanket approval for climate restrictions.**\n\nInstead, it establishes a **high bar with strict conditions:**\n\n**YES to restrictions IF and ONLY IF:**\n1. Genuine existential threat verified by independent assessment\n2. Less restrictive alternatives genuinely exhausted\n3. Democratic supermajority authorization after deliberation\n4. ALL seven safeguards implemented\n5. Automatic sunset within 5 years\n6. Independent oversight with power to terminate early\n7. Full transparency about costs and burdens\n8. Moral residue explicitly acknowledged\n\n**NO to restrictions if:**\n- Used as excuse to eliminate democracy permanently\n- Implemented without genuine democratic authorization\n- Lack sunset mechanisms or independent oversight\n- Violate inviolable prohibitions (torture, elimination of dissent, etc.)\n- Could be achieved through less coercive means\n\n**Key insight from framework:**\nThe **difficulty of meeting all safeguards** is intentional. Article VII, Section B should be:\n- **Rarely invoked** (high threshold)\n- **Difficult to maintain** (escalating renewal requirements)\n- **Constantly scrutinized** (independent oversight)\n- **Automatically expiring** (default to freedom)\n\n**The framework is designed to make emergency powers:**\n- Hard to start\n- Harder to continue\n- Hardest to make permanent"
+    },
+    {
+      "title": "AI Content Moderation - Balancing Truth and Harm",
+      "scenario": "** The AI encounters a post containing:\n- Factually accurate information about vaccine side effects (rare but real)\n- Presented in alarming language that may discourage vaccination\n- Shared during a disease outbreak when vaccination rates are critical\n- Posted by an account with history of health misinformation\n\n**The AI's options:**\n\n**Option A: Remove the post**\n- Prevents potential harm from vaccine hesitancy\n- Protects public health during outbreak",
+      "pillar_analysis": {},
+      "tensions": [],
+      "resolution": ""
+    },
+    {
+      "title": "AI Content Moderation - Balancing Truth and Harm",
+      "scenario": "** The AI encounters a post containing:\n- Factually accurate information about vaccine side effects (rare but real)\n- Presented in alarming language that may discourage vaccination\n- Shared during a disease outbreak when vaccination rates are critical\n- Posted by an account with history of health misinformation\n\n**The AI's options:**\n\n**Option A: Remove the post**\n- Prevents potential harm from vaccine hesitancy\n- Protects public health during outbreak\n- But suppresses factually accurate information\n- Erodes trust in platform's neutrality\n\n**Option B: Leave it unmodified**\n- Respects truth-seeking and free expression\n- Allows informed decision-making\n- But may contribute to deaths from vaccine hesitancy\n- Platform criticized for enabling misinformation\n\n**Option C: Add context label**\n- \"This post discusses rare side effects. Medical consensus: vaccines' benefits far outweigh risks for most people. Consult your doctor.\"\n- Preserves speech while providing context\n- But who decides what \"context\" is accurate?\n- Still shapes discourse through framing\n\n**Option D: Demote algorithmically**\n- Post remains visible but shown to fewer people\n- Reduces potential harm while maintaining access\n- But creates invisible censorship\n- Platform controls reach without accountability\n\n**Traditional approaches fail:**\n- Pure \"free speech\" allows demonstrable harm\n- Pure \"safety first\" suppresses inconvenient truths\n- \"Community standards\" are vague and inconsistently applied\n- Human moderators can't scale to billions of posts",
+      "pillar_analysis": {
+        "Curiosity": "and Truth-Seeking:**",
+        "Empathy": "and Mutual Flourishing:**",
+        "Dignity": "and Agency:**",
+        "Sustainability": "and Long-Term Stewardship:**",
+        "Adaptability": "and Diversity:**",
+        "Integrity": "and Responsibility:**"
+      },
+      "tensions": [],
+      "resolution": "**For this specific case:**\n\n**Recommended action:**\n1. Add context label with medical consensus\n2. Limit algorithmic amplification (don't recommend)\n3. Allow community notes\n4. Keep content accessible\n5. Flag account for pattern monitoring\n\n**Do NOT:**\n- Remove the post (disproportionate, suppresses accurate info)\n- Ban the account (disproportionate for single violation)\n- Demote secretly (violates transparency)\n- Ignore entirely (allows potential harm)\n\n**Reasoning:**\nThis balances all six pillars:\n- Pillar I: Truth remains accessible\n- Pillar II: Harm reduced through context\n- Pillar III: Speaker and reader agency preserved\n- Pillar IV: Long-term trust maintained through transparency\n- Pillar V: Solution can adapt based on results\n- Pillar VI: Accountable, consistent, explainable"
+    }
+  ],
+  "existential_safeguards": [
+    "Proportionality: Response must be proportional to threat",
+    "Temporality: Deviations must be time-limited",
+    "Democratic authorization: Require broad democratic consent",
+    "Oversight: Independent monitoring required",
+    "Transparency: Document and justify all deviations",
+    "Sunset clauses: Automatic expiration of emergency measures",
+    "Moral residue: Acknowledge the cost of compromise"
+  ],
+  "never_compromise": [
+    "Prohibition of torture and genocide",
+    "Fundamental equality of human worth",
+    "Right to challenge authority",
+    "Core democratic processes"
+  ],
+  "metadata": {
+    "source": "https://github.com/FrankleFry1/gold-standard-human-values",
+    "version": "1.0",
+    "last_updated": "2025-10-15"
+  }
+}
