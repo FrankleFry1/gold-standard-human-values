@@ -1,0 +1,35 @@
+# API Keys - NEVER COMMIT THESE
+.env
+*.env
+!.env.example
+
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+venv/
+env/
+ENV/
+*.egg-info/
+dist/
+build/
+
+# Logs (optional - you might want to keep example logs)
+# ethics_log.json
+# alignment_log.ndjson
+
+# Cache
+*.cache
+
+# IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+
+# OS
+.DS_Store
+Thumbs.db
