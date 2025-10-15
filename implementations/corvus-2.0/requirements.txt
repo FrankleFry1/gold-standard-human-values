@@ -1,0 +1,20 @@
+# CORVUS 2.0 Dependencies
+# Python 3.8+ required
+
+# Core dependencies
+requests>=2.31.0
+python-dotenv>=1.0.0
+numpy>=1.24.0
+
+# NLP and ML models
+sentence-transformers>=2.2.2
+transformers>=4.30.0
+torch>=2.0.0
+
+# Optional: for alignment evaluation
+scikit-learn>=1.3.0
+
+# Development dependencies (optional)
+pytest>=7.4.0
+black>=23.7.0
+flake8>=6.1.0
